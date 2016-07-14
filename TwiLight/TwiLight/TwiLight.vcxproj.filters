@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{6be90ba8-6e87-4c7a-991a-717d3315d88f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Math">
+      <UniqueIdentifier>{5b33597d-55cf-4ce9-8ea0-02ea8c47b15a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Math\include">
+      <UniqueIdentifier>{9b7520a1-6844-4e52-b66a-8fd499f28da6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Math\source">
+      <UniqueIdentifier>{046b5b2a-d93c-4940-a012-66367748168f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Common">
+      <UniqueIdentifier>{b79bf55a-a787-4b73-990c-2977aa6470e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Common\include">
+      <UniqueIdentifier>{59b5cd4d-1714-418e-aed6-b39a426a34fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Common\source">
+      <UniqueIdentifier>{44ec8664-96a8-43c5-b352-b639a6d07d5f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tvector2.h">
+      <Filter>Core\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="TCorePublic.h">
+      <Filter>Core\Common\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Tvector3.h">
+      <Filter>Core\Math\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Tvector4.h">
+      <Filter>Core\Math\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tvector2.cpp">
+      <Filter>Core\Math\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Tvector3.cpp">
+      <Filter>Core\Math\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Tvector4.cpp">
+      <Filter>Core\Math\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
