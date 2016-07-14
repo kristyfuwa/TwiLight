@@ -137,7 +137,6 @@ HRESULT InitGriphics()
 		{ -10,    10,  0.0f,  0.0f, 0.0f },
 		{ 10,   -10,  0.0f,  1.0f, 1.0f },
 		{ 10,    10,  0.0f,  1.0f, 0.0f }
-
 	};
 
 	//创建顶点缓冲区
@@ -228,7 +227,6 @@ VOID Render()
 		g_pd3dDevice->SetStreamSource(0, g_pVB, 0, sizeof(CUSTOMVERTEX));
 		g_pd3dDevice->SetFVF(D3DFVF_CUSTOMVERTEX);
 		g_pd3dDevice->DrawPrimitive(D3DPT_TRIANGLESTRIP, 0, 2);
-		g_pd3dDevice->EndScene();
 		D3DXSaveTextureToFileA("tt.tga", D3DXIFF_TGA, g_pRenderTex, NULL);
 
 		D3DXMATRIXA16 matWorld1;
@@ -243,7 +241,6 @@ VOID Render()
 		g_pd3dDevice->SetStreamSource(0, g_pVB, 0, sizeof(CUSTOMVERTEX));
 		g_pd3dDevice->SetFVF(D3DFVF_CUSTOMVERTEX);
 		g_pd3dDevice->DrawPrimitive(D3DPT_TRIANGLESTRIP, 0, 2);
-		g_pd3dDevice->EndScene();
 		D3DXSaveTextureToFileA("tt2.tga", D3DXIFF_TGA, g_pRender2Tex, NULL);
 
 		D3DXMATRIXA16 matWorld;
