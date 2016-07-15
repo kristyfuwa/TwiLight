@@ -228,4 +228,5 @@ c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(608): w
 c:\program files (x86)\microsoft directx sdk (june 2010)\include\d3d10.h(609): warning C4005: “D3D10_ERROR_FILE_NOT_FOUND”: 宏重定义
   c:\program files (x86)\windows kits\8.1\include\shared\winerror.h(50454): note: 参见“D3D10_ERROR_FILE_NOT_FOUND”的前一个定义
   正在生成代码...
-  D3D11_WindowCreate_03.vcxproj -> C:\Users\TwiLight\Code\D3D11_WindowCreate_01\Debug\D3D11_WindowCreate_03.exe
+  D3D11_WindowCreate_03.vcxproj -> E:\GitHub\Code\TwiLight\D3D11_WindowCreate_01\Debug\D3D11_WindowCreate_03.exe
+  D3D11_WindowCreate_03.vcxproj -> E:\GitHub\Code\TwiLight\D3D11_WindowCreate_01\Debug\D3D11_WindowCreate_03.pdb (Full PDB)
